@@ -64,10 +64,6 @@ body {
   margin-right: 1rem;
 }
 
-#tv-shows div.dropdown {
-  margin-left: 2rem;
-}
-
 .tv-shows.d-flex {
   position: relative;
 }
