@@ -161,6 +161,47 @@ div.copyright span {
   font-size: 10px;
 }
 
+#trendingCarousel .infos-container {
+  z-index: 5;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  opacity: 0%;
+  background-color: transparent;
+  transition: opacity 300ms, background-color 300ms;
+}
+
+.carousel-control-next:focus,
+.carousel-control-prev:focus {
+  opacity: 0%;
+}
+
+.carousel.slide:hover .carousel-control-prev,
+.carousel.slide:hover .carousel-control-next {
+  opacity: 80%;
+}
+
+.carousel-control-prev:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.7497199563419117) 100%
+  );
+}
+.carousel-control-next:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.7497199563419117) 100%
+  );
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
   .side-info-span {
