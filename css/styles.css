@@ -87,6 +87,7 @@ body {
 .show-card:hover {
   transform: scale(1.2);
   z-index: 2;
+  box-shadow: 0 0 17px -2px #1e2122;
 }
 
 .infos-container {
@@ -100,13 +101,44 @@ body {
 }
 
 .show-card:hover .infos-container {
+  box-shadow: 0 0 17px -2px #1e2122;
   opacity: 1;
 }
 
-.infos-container h6 {
+.infos-container h6,
+p {
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 0;
+}
+
+.infos-container .icons-area i.bi {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.material-symbols-outlined {
+  font-size: 30px;
+}
+
+.icons,
+.links {
+  color: rgb(141, 139, 139);
+}
+
+.links span {
+  font-size: 15px;
+}
+
+div.row span.small-icon {
+  color: rgb(141, 139, 139);
+  border: 1px solid rgb(141, 139, 139);
+  font-size: 15px;
+}
+
+div.copyright span {
+  color: rgb(141, 139, 139);
+  font-size: 10px;
 }
 
 /* Extra small devices (phones, 600px and down) */
