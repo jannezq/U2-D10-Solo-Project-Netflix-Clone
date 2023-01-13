@@ -112,13 +112,33 @@ p {
   margin-bottom: 0;
 }
 
+.infos-container p {
+  font-size: 15px;
+}
+
 .infos-container .icons-area i.bi {
   font-size: 25px;
   margin-right: 10px;
 }
 
+.bi.bi-play-circle-fill,
+.bi.bi-check-circle,
+.bi.bi-hand-thumbs-up {
+  font-size: 25px;
+  transition: font-size 0.3s;
+}
+
+.bi.bi-play-circle-fill:hover {
+  font-size: 35px;
+}
+
 .material-symbols-outlined {
   font-size: 30px;
+  transition: font-size 0.3s;
+}
+
+.material-symbols-outlined:hover {
+  font-size: 35px;
 }
 
 .icons,
