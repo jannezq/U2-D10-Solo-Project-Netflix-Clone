@@ -24,7 +24,11 @@ body {
 }
 
 .navbar {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem;
+}
+
+.navbar-brand {
+  margin-right: 0;
 }
 
 .btn-secondary {
@@ -48,4 +52,32 @@ body {
 .side-info span {
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+#tv-shows button.genre.btn.btn-secondary {
+  border-color: white;
+  border-radius: 0;
+}
+
+#tv-shows button.genre.btn.btn-secondary span {
+  margin-right: 1rem;
+}
+
+#tv-shows div.dropdown {
+  margin-left: 2rem;
+}
+
+.tv-shows.d-flex {
+  position: relative;
+}
+
+#tv-shows div.side-info-span span {
+  border: 1px solid white;
+  padding-block: 3px;
+  padding-inline: 15px;
+}
+
+.no-wrap {
+  overflow-wrap: normal;
+  flex-wrap: nowrap;
 }
