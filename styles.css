@@ -1,0 +1,51 @@
+@font-face {
+  font-family: netflix-sans;
+  src: url("../U2-D10-Solo-Project-Netflix-Clone/assets/fonts/NetflixSans-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: netflix-sans-bold;
+  font-weight: bold;
+  src: url("../U2-D10-Solo-Project-Netflix-Clone/assets/fonts/NetflixSans-Bold.otf")
+    format("opentype");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  background-color: #141414;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  padding: 0.5rem 2rem;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #141414;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: transparent;
+  border-color: #141414;
+}
+
+.side-info {
+  width: 250px;
+}
+
+.side-info span {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
