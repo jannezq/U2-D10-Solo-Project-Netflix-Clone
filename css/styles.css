@@ -79,6 +79,36 @@ body {
   color: rgb(194, 194, 194);
 }
 
+.show-card {
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.show-card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.infos-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  background-color: #141414;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.5s;
+}
+
+.show-card:hover .infos-container {
+  opacity: 1;
+}
+
+.infos-container h6 {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
   .side-info-span {
